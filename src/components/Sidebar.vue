@@ -1,8 +1,27 @@
 <template>
-        <div class="sidebar col-sm-12">
-            <!-- <li><a href="#">One</a></li>
-            <li><a href="#">Two</a></li> -->
-        </div>
+  <div class="wrapper container">
+    <nav id="sidebar center">
+      <div class="sidebar-header">
+        <h3>Dashboard</h3>
+      </div>
+
+      <ul class="list-unstyled components">
+        <p>Dummy Heading</p>
+        <li class="active nav-link">
+          <a href="#">Summary</a>
+        <li class="nav-link">
+          <a href="#">Stats</a>
+        </li>
+        <li class="nav-link">
+            <a href="#">Feeds</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="content">
+
+    </div>
+  </div>
 </template>
 
 <script>
@@ -17,8 +36,11 @@ export default {
 </script>
 
 <style lang='scss' scoped>
-  .sidebar{
-    background-color: green;
-    height: 100vh;
+  .wrapper {
+    display: flex;
+    // height: 100vh;
+    #sidebar{
+      // align-items: stretch;
+    }
   }
 </style>

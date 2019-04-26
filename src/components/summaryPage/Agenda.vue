@@ -1,5 +1,5 @@
 <template>
-    <div class="agenda large-9">
+    <div class="agenda col-sm-12">
 
     </div>
 </template>
@@ -13,6 +13,7 @@ export default {
 <style lang="scss" scoped>
     .agenda{
         background-color: yellow;
+        height: 50vh;
     }
 </style>
 
